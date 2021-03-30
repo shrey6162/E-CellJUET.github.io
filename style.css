@@ -1,6 +1,6 @@
 #banner-image {
-	padding-top: 70px;
-	padding-bottom: 5px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	text-align: center;
 	color: #f8f8f8;
 	background: url("images/banner4.jpg");
@@ -12,7 +12,7 @@
 	position: relative;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	margin: 12% auto;
+	margin: 4% auto;
 	background-color: rgba(0, 0, 0, 0.7);
 	max-width: 660px;
 }
@@ -237,6 +237,16 @@ footer {
 
 /*tablet view styling*/
 		@media only screen and (min-width: 768px){
+			#banner-image {
+				padding-top: 220px;
+				padding-bottom: 220px;
+				text-align: center;
+				color: #f8f8f8;
+				background: url("images/banner4.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover; 
+			}
 			.help{
 					text-align: center;
 					color: white;
