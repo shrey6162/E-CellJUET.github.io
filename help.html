@@ -58,15 +58,29 @@
 				<div class="contact2">
 			Phone :	+91-8707495923 <br>
 			 	<!-- Fax :	+91-7544-267011<br> -->
-			 	Email :	ecell @ juet.ac.in <br>
+			 	Email :	ecell@juet.ac.in <br>
 			
-		</div><br><div class="form">
+		</div><br>
+		<div class="form">
 			<center><form action="https://formsubmit.co/nigam001shrey@gmail.com" method="POST"><div>
-				<label><b class="xyz">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="text" name="name" placeholder="username" required></label><br><br>
-				<label><b class="xyz">E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="E-Mail" name="email"placeholder="e-mail id" id="emails" required name="emails" multiple></label><br><br>
-				<label><b class="xyz">Contact Number:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="tel" name="number" placeholder="contact number" id="emails" required name="emails" multiple></label><br><br>
-				<textarea rows="10" cols="80" name="message" form="usrform" style ="width: 90%" placeholder="Enter text here..." required></textarea><br><br>
-				<button type="submit" name="button"> Submit</button></div>
+			        <label for="name" class="bodytext" style="color: white;">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			          <input type="text" name="name" id="name"  placeholder="username" style="color: black;" />
+			        </label>
+			      </div><br>
+			      <div>
+			        <label for="email"  class="bodytext" style="color: white;">E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;
+			          <input type="text" name="email" id="email"  placeholder="e-mail id" style="color: black;"/>
+			        </label>
+			      </div><br>
+			      <div>
+			        <label  class="bodytext" style="color: white;">Message:</label>
+			        <br><br>
+			        <textarea name="comment" rows="12" cols="24"  id="comment"  style ="width: 60%" class="bodytext"  placeholder="Enter your message here..." style="color: black;"></textarea><br><br>
+			      </div>
+			      <div  class="bodytext" id="btn">
+			        <input type="submit" name="submit" value="Submit"  style="color: black;"/>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			        <input type="reset" name="reset" value="Clear"  style="color: black;"/></div>
+			      </div>
 				<input type="hidden" name="_captcha" value="false">
 				<input type="hidden" name="_next" value="thanks.html">
 			</form>
