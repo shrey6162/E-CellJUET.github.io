@@ -61,11 +61,11 @@
 			 	Email :	ecell @ juet.ac.in <br>
 			
 		</div><br><div class="form">
-			<center><form action="https://formsubmit.co/nigam001shrey@gmail.com" method="post"><div>
-				<label><b class="xyz">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="text" placeholder="username"></label><br><br>
-				<label><b class="xyz">E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="E-Mail" placeholder="e-mail id" id="emails" name="emails" multiple></label><br><br>
-				<label><b class="xyz">Contact Number:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="tel" placeholder="contact number" id="emails" name="emails" multiple></label><br><br>
-				<textarea rows="10" cols="80" name="comment" form="usrform" style ="width: 90%" placeholder="Enter text here..."></textarea><br><br>
+			<center><form action="https://formsubmit.co/nigam001shrey@gmail.com" method="POST"><div>
+				<label><b class="xyz">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="text" name="name" placeholder="username" required></label><br><br>
+				<label><b class="xyz">E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="E-Mail" name="email"placeholder="e-mail id" id="emails" required name="emails" multiple></label><br><br>
+				<label><b class="xyz">Contact Number:&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="tel" name="number" placeholder="contact number" id="emails" required name="emails" multiple></label><br><br>
+				<textarea rows="10" cols="80" name="message" form="usrform" style ="width: 90%" placeholder="Enter text here..." required></textarea><br><br>
 				<button type="submit" name="button"> Submit</button></div>
 				<input type="hidden" name="_captcha" value="false">
 				<input type="hidden" name="_next" value="thanks.html">
